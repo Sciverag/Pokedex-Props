@@ -1,0 +1,99 @@
+.container-Card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1%;
+    grid-row-gap: 2.20%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.card-Card {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px rgb(65, 65, 65);
+    align-items: center;
+    padding: 2%;
+    border-radius: 10px;
+    transition: all 0.35s;
+}
+
+.pokemonName-Card {
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.stats-Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 98%;
+    align-items: center;
+    margin-bottom: 3%;
+    height: 20vh;
+    background-color: rgba(245, 245, 245, 0.479);
+    border-radius: 15px;
+    padding: 1%;
+}
+
+.imageContainer-Card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    box-shadow: inset 0px 0px 5px rgb(66, 66, 66);
+    border-radius: 10px;
+}
+
+.imageContainer-Card > img {
+    width: 30%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+}
+
+.stats-Card > div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.stats-Card > div > h4{
+    margin-right: 1%;
+}
+
+.description-Card {
+    text-align: center;
+    text-wrap: pretty;
+    color: rgba(0, 0, 0, 0.514);
+}
+
+.imageContainer-Card:has(.Grass){
+    background-color: rgb(52, 173, 52);
+}
+
+.imageContainer-Card:has(.Fire){
+    background-color: rgb(202, 75, 75);
+}
+
+.imageContainer-Card:has(.Water){
+    background-color: rgb(75, 151, 202);
+}
+
+.card-Card:has(.imageContainer-Card > .Grass){
+    background-color: rgb(164, 219, 164);
+}
+
+.card-Card:has(.imageContainer-Card > .Fire){
+    background-color: rgb(219, 164, 164);
+}
+
+.card-Card:has(.imageContainer-Card > .Water){
+    background-color: rgb(164, 194, 219);
+}
+
+.card-Card:hover {
+    scale: 103%;
+}

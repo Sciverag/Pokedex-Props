@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Bulbasaur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "types": ["Grass", "Poison"],
+    "id": 1,
+    "abilities": ["Overgrow", "Chlorophyll"],
+    "region": "Kanto",
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "evolution": {
+      "next": "Ivysaur",
+      "level": 16
+    },
+    "description": "Bulbasaur, the Seed Pokémon, has a plant on its back that grows over time."
+  },
+  {
+    "name": "Ivysaur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+    "types": ["Grass", "Poison"],
+    "id": 2,
+    "abilities": ["Overgrow", "Chlorophyll"],
+    "region": "Kanto",
+    "stats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 60
+    },
+    "evolution": {
+      "next": "Venusaur",
+      "level": 32
+    },
+    "description": "Ivysaur, Bulbasaur's evolution, has a flower on its back that is about to bloom."
+  },
+  {
+    "name": "Venusaur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "types": ["Grass", "Poison"],
+    "id": 3,
+    "abilities": ["Overgrow", "Chlorophyll"],
+    "region": "Kanto",
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "evolution": {
+      "next": null,
+      "level": null
+    },
+    "description": "Venusaur, the final form of Bulbasaur, has a large flower that blooms on its back and releases a sweet aroma."
+  },
+  {
+    "name": "Charmander",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "types": ["Fire"],
+    "id": 4,
+    "abilities": ["Blaze", "Solar Power"],
+    "region": "Kanto",
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "specialAttack": 60,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "evolution": {
+      "next": "Charmeleon",
+      "level": 16
+    },
+    "description": "Charmander, the Lizard Pokémon, has a flame at the tip of its tail that reflects its health."
+  },
+  {
+    "name": "Charmeleon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+    "types": ["Fire"],
+    "id": 5,
+    "abilities": ["Blaze", "Solar Power"],
+    "region": "Kanto",
+    "stats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "specialAttack": 80,
+      "specialDefense": 65,
+      "speed": 80
+    },
+    "evolution": {
+      "next": "Charizard",
+      "level": 36
+    },
+    "description": "Charmeleon, Charmander's evolution, is much fiercer and can control its flames."
+  },
+  {
+    "name": "Charizard",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "types": ["Fire", "Flying"],
+    "id": 6,
+    "abilities": ["Blaze", "Solar Power"],
+    "region": "Kanto",
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "specialAttack": 109,
+      "specialDefense": 85,
+      "speed": 100
+    },
+    "evolution": {
+      "next": null,
+      "level": null
+    },
+    "description": "Charizard, the final form of Charmander, can fly at great heights and breathe fire."
+  },
+  {
+    "name": "Squirtle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "types": ["Water"],
+    "id": 7,
+    "abilities": ["Torrent", "Rain Dish"],
+    "region": "Kanto",
+    "stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 64,
+      "speed": 43
+    },
+    "evolution": {
+      "next": "Wartortle",
+      "level": 16
+    },
+    "description": "Squirtle, the Tiny Turtle Pokémon, is known for its ability to shoot water from its shell."
+  },
+  {
+    "name": "Wartortle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+    "types": ["Water"],
+    "id": 8,
+    "abilities": ["Torrent", "Rain Dish"],
+    "region": "Kanto",
+    "stats": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "specialAttack": 65,
+      "specialDefense": 80,
+      "speed": 58
+    },
+    "evolution": {
+      "next": "Blastoise",
+      "level": 36
+    },
+    "description": "Wartortle, Squirtle's evolution, is characterized by its curled tail and pointy ears."
+  },
+  {
+    "name": "Blastoise",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+    "types": ["Water"],
+    "id": 9,
+    "abilities": ["Torrent", "Rain Dish"],
+    "region": "Kanto",
+    "stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "specialAttack": 85,
+      "specialDefense": 105,
+      "speed": 78
+    },
+    "evolution": {
+      "next": null,
+      "level": null
+    },
+    "description": "Blastoise, the final evolution of Squirtle, has water cannons mounted on its shell, allowing it to shoot powerful jets of water."
+  }
+]
