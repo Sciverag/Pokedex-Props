@@ -97,3 +97,21 @@
 .card-Card:hover {
     scale: 103%;
 }
+
+.card-Card:hover > .imageContainer-Card > img {
+    animation: pokemonHover 0.3s ease;
+}
+
+@keyframes pokemonHover {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-10%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
